@@ -1,0 +1,35 @@
+* {
+    /* outline: 2px solid red;
+    margin: auto;
+    width: 970px;
+    height: 100vh; */
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.container {
+    outline: 2px solid red;
+    margin: auto;
+    width: 970px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto; 
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    outline: 1px solid red;
+    width: 30px;
+    height: 30px;
+}
